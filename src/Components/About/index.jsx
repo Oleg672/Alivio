@@ -1,7 +1,7 @@
 import React from "react";
 import './style-module.css'
 import Video1 from '../../images/video1.png';
-//import Play from '../../play-white.png';
+import Play from '../../images/play-white.png';
 
 function About() {
     return (
@@ -15,6 +15,7 @@ function About() {
                     </div>
                     <div className="About__video col-6">
                         <img src={Video1} alt="" />
+                        <button className="About__video-btn"><img className="About__video-btnIMG" src={Play} alt="" /></button>
                     </div>
                 </div>
 
