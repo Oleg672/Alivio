@@ -1,0 +1,64 @@
+.btnFullSite {
+    background-color: #01996d;
+    padding: 13px 50px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.main {
+    margin: 0;
+    padding: 0;
+    &__title {
+        margin: 0;
+        padding-top: 175px;
+        display: block;
+        font-family: 'Noto Sans Georgian', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 65px;
+        line-height: 74px;
+        max-width: 440px;
+        color: #01996d;
+    }
+    &__context {
+        padding: 30px 0px;
+        margin: 0;
+        display: block;
+        font-family: "Lato", sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 31px;
+        max-width: 420px;
+        color: #484848;
+    }
+    .container {
+        padding: 0;
+    }
+    .wrap {
+        margin-top: -21px;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        z-index: -3;
+        &::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: 2;
+            background: linear-gradient(112.58deg, #ffffff 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+        }
+    }
+    &__img {
+        display: block;
+        z-index: -3;
+        height: 895px;
+        width: 100vw;
+        background-size: cover;
+        background: linear-gradient(112.58deg, #ffffff 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+    }
+}

@@ -1,0 +1,151 @@
+.product {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.product__description {
+  padding-left: 60px;
+}
+
+.product__descHeader {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 157%;
+  color: #424242;
+}
+
+.product__title {
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996d;
+  max-width: 584px;
+}
+
+.product__desc {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  line-height: 31px;
+  color: #484848;
+  max-width: 535px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.photo {
+  background-color: rgba(1, 153, 109, 0.2);
+  border-radius: 15px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.photo .customized {
+  position: absolute;
+  bottom: -55px;
+  left: -117px;
+  background-color: white;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 55px;
+  -webkit-filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+          filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+}
+
+.photo .customized__header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.49px;
+  line-height: 157%;
+  margin-bottom: 7px;
+  position: relative;
+}
+
+.photo .customized__header::after {
+  content: '';
+  bottom: -7px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.photo .customized__imgWrap {
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.photo .customized__mane {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11.9351px;
+  line-height: 157%;
+}
+
+.photo .customized__contacts {
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15.9292px;
+  line-height: 157%;
+  margin: 20px 0px;
+}
+
+.photo .customized__list {
+  margin: 0;
+  padding: 0;
+}
+
+.photo .customized__item {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.6195px;
+  line-height: 157%;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1300px) {
+  .btnFullSite {
+    font-size: 17px;
+  }
+}
+/*# sourceMappingURL=style-module.css.map */

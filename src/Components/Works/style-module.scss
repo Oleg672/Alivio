@@ -1,0 +1,80 @@
+.works {
+    display: flex;
+    margin-top: 505px;
+    &__title {
+        font-family: 'Lato', sans-serif;
+        font-size: 24px;
+        /* line-height: 157%; */
+        color: #424242;
+
+        color: #424242;
+        h2 {
+            font-family: 'Noto Sans Georgian', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 78px;
+            color: #01996d;
+        }
+    }
+    &__description {
+        padding-top: 53px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        /* or 30px */
+
+        color: #424242;
+    }
+    &__list {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+       
+    }
+    &__item{
+        position: relative;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+    &__item:nth-child(2){
+        margin-top: 287px;
+    }
+    &__item:nth-child(3){
+        margin-top: 54px;
+    }
+    &__itemNUM {
+        font-family: 'Noto Sans Georgian', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 150px;
+        line-height: 225px;
+        text-align: center;
+        color: rgba(1, 153, 109, 0.2);
+        
+    }
+    &__itemTitle {
+        font-family: 'Noto Sans Georgian', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color: #000000;
+        position: absolute;
+        top: 166px;
+        left: auto;
+    }
+    &__itemDescription {
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #424242;
+    }
+    &__itemIMG {
+        width: 100%;
+        border-radius: 12px;
+    }
+}
