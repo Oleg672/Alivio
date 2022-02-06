@@ -29,7 +29,7 @@
 
 .header-menu__item a {
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -39,13 +39,37 @@
 
 .header-autorize {
   text-decoration: none;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   margin-right: 35px;
   color: #292929;
+}
+
+.header__bnt-naw {
+  position: relative;
+  display: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: inherit;
+}
+
+.header__bnt-naw > span {
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  background-color: #5b6987;
 }
 
 .btnFullSite {
@@ -58,7 +82,8 @@
 }
 
 @media screen and (max-width: 1300px) {
-  .header-autorize a, .header-menu__item a {
+  .header-autorize a,
+  .header-menu__item a {
     font-size: 17px;
   }
   .header-menu__item {
@@ -71,7 +96,8 @@
 }
 
 @media screen and (max-width: 1070px) {
-  .header-autorize a, .header-menu__item a {
+  .header-autorize a,
+  .header-menu__item a {
     font-size: 15px;
   }
   .header-menu__item {
@@ -85,7 +111,8 @@
 }
 
 @media screen and (max-width: 950px) {
-  .header-autorize a, .header-menu__item a {
+  .header-autorize a,
+  .header-menu__item a {
     font-size: 13px;
   }
   .header-autorize a {
@@ -98,6 +125,42 @@
   .header .btnFullSite {
     font-size: 13px;
     padding: 7px 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-menu {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 40px;
+    background-color: #292929;
+    z-index: 1000;
+    margin: 0;
+    position: fixed;
+  }
+  .header-menu__item {
+    padding: 0;
+    margin-top: 20px;
+  }
+  .header-menu__item a {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 31px;
+    color: white;
+  }
+  .header__bnt-naw {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 1001;
   }
 }
 /*# sourceMappingURL=style-module.css.map */

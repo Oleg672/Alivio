@@ -18,7 +18,7 @@
 
             a {
                 text-decoration: none;
-                font-family: 'Lato', sans-serif;
+                font-family: "Lato", sans-serif;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 20px;
@@ -30,13 +30,31 @@
     }
     &-autorize {
         text-decoration: none;
-        font-family: 'Lato', sans-serif;
+        font-family: "Lato", sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 24px;
         margin-right: 35px;
         color: #292929;
+    }
+    &__bnt-naw {
+        position: relative;
+        display: none;
+        justify-content: space-around;
+        flex-direction: column;
+        width: 24px;
+        height: 24px;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background-color: inherit;
+        & > span {
+            display: inline-block;
+            width: 100%;
+            height: 2px;
+            background-color: rgb(91, 105, 135);
+        }
     }
 }
 .btnFullSite {
@@ -49,49 +67,77 @@
 }
 
 @media screen and (max-width: 1300px) {
-    
-    .header-autorize a, .header-menu__item a{
+    .header-autorize a,
+    .header-menu__item a {
         font-size: 17px;
-        
     }
-    .header-menu__item{
+    .header-menu__item {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .header .btnFullSite{
+    .header .btnFullSite {
         font-size: 17px;
     }
-  }
-  @media screen and (max-width: 1070px) {
-    
-    .header-autorize a, .header-menu__item a{
+}
+@media screen and (max-width: 1070px) {
+    .header-autorize a,
+    .header-menu__item a {
         font-size: 15px;
-        
     }
-    .header-menu__item{
+    .header-menu__item {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .header .btnFullSite{
+    .header .btnFullSite {
         font-size: 15px;
         padding: 7px 25px;
     }
-  }
-  @media screen and (max-width: 950px) {
-    
-    .header-autorize a, .header-menu__item a{
+}
+@media screen and (max-width: 950px) {
+    .header-autorize a,
+    .header-menu__item a {
         font-size: 13px;
-        
     }
-    .header-autorize a{
+    .header-autorize a {
         margin-right: 9px;
     }
-    .header-menu__item{
+    .header-menu__item {
         padding-left: 7px;
         padding-right: 7px;
     }
-    .header .btnFullSite{
+    .header .btnFullSite {
         font-size: 13px;
         padding: 7px 25px;
     }
-  }
+}
+@media screen and (max-width: 768px) {
+    .header-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 40px;
+        background-color: #292929;
+        z-index: 1000;
+        margin: 0;
+        position: fixed;
+        &__item {
+            padding: 0;
+            margin-top: 20px;
+
+            & a {
+                font-family: "Lato", sans-serif;
+                font-style: normal;
+                font-size: 20px;
+                line-height: 31px;
+                color: white;
+            }
+        }
+    }
+    .header__bnt-naw {
+        display: flex;
+        z-index: 1001;
+    }
+}
