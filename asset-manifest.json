@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.d1c4153b.css",
-    "main.js": "./static/js/main.e6accc89.js",
-    "static/js/787.ee779dd6.chunk.js": "./static/js/787.ee779dd6.chunk.js",
-    "static/media/main.png": "./static/media/main.c1ba00f468d26f27f057.png",
-    "static/media/video1.png": "./static/media/video1.d020aab3192841e506dc.png",
-    "static/media/photo.png": "./static/media/photo.c069fecdfdd80f825384.png",
-    "static/media/item3.png": "./static/media/item3.51835698b9d9af37ce9f.png",
-    "static/media/item2.png": "./static/media/item2.739ef88142e40817f2b9.png",
-    "static/media/item1.png": "./static/media/item1.835a8e4157b2fa86786b.png",
-    "index.html": "./index.html",
-    "main.d1c4153b.css.map": "./static/css/main.d1c4153b.css.map",
-    "main.e6accc89.js.map": "./static/js/main.e6accc89.js.map",
-    "787.ee779dd6.chunk.js.map": "./static/js/787.ee779dd6.chunk.js.map"
+    "main.css": "/Alivio/static/css/main.d1c4153b.css",
+    "main.js": "/Alivio/static/js/main.032a5c5e.js",
+    "static/js/787.ee779dd6.chunk.js": "/Alivio/static/js/787.ee779dd6.chunk.js",
+    "static/media/main.png": "/Alivio/static/media/main.c1ba00f468d26f27f057.png",
+    "static/media/video1.png": "/Alivio/static/media/video1.d020aab3192841e506dc.png",
+    "static/media/photo.png": "/Alivio/static/media/photo.c069fecdfdd80f825384.png",
+    "static/media/item3.png": "/Alivio/static/media/item3.51835698b9d9af37ce9f.png",
+    "static/media/item2.png": "/Alivio/static/media/item2.739ef88142e40817f2b9.png",
+    "static/media/item1.png": "/Alivio/static/media/item1.835a8e4157b2fa86786b.png",
+    "index.html": "/Alivio/index.html",
+    "main.d1c4153b.css.map": "/Alivio/static/css/main.d1c4153b.css.map",
+    "main.032a5c5e.js.map": "/Alivio/static/js/main.032a5c5e.js.map",
+    "787.ee779dd6.chunk.js.map": "/Alivio/static/js/787.ee779dd6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1c4153b.css",
-    "static/js/main.e6accc89.js"
+    "static/js/main.032a5c5e.js"
   ]
 }
