@@ -63,7 +63,7 @@
   display: block;
 }
 
-.photo .customized {
+.customized {
   position: absolute;
   bottom: -55px;
   left: -117px;
@@ -84,7 +84,7 @@
           filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
 }
 
-.photo .customized__header {
+.customized__header {
   font-family: Lato;
   font-style: normal;
   font-weight: 600;
@@ -94,7 +94,7 @@
   position: relative;
 }
 
-.photo .customized__header::after {
+.customized__header::after {
   content: "";
   bottom: -7px;
   left: 0;
@@ -104,7 +104,7 @@
   background-color: black;
 }
 
-.photo .customized__imgWrap {
+.customized__imgWrap {
   width: 57px;
   height: 57px;
   border-radius: 50%;
@@ -112,7 +112,7 @@
   margin: 0 auto;
 }
 
-.photo .customized__mane {
+.customized__mane {
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
@@ -120,7 +120,7 @@
   line-height: 157%;
 }
 
-.photo .customized__contacts {
+.customized__contacts {
   font-family: Georgia;
   font-style: normal;
   font-weight: bold;
@@ -129,12 +129,12 @@
   margin: 20px 0px;
 }
 
-.photo .customized__list {
+.customized__list {
   margin: 0;
   padding: 0;
 }
 
-.photo .customized__item {
+.customized__item {
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
@@ -149,12 +149,33 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .customized {
+    bottom: -55px;
+    left: 14px;
+    padding: 11px 11px;
+  }
+  .product__description {
+    margin-top: 100px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .product__desc {
+    max-width: 100%;
+  }
+}
+
 @media screen and (max-width: 426px) {
   .product {
     padding: 50px 0px;
   }
   .product__description {
     padding: 0;
+    margin-top: 15px;
+  }
+  .product__description__btnFullSite {
+    display: block;
+    margin: 0 auto;
   }
   .product__descHeader {
     font-size: 16px;
@@ -185,7 +206,8 @@
     position: relative;
     bottom: 0;
     left: 0;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
+    border-radius: 0 0 15px 15px;
   }
 }
 /*# sourceMappingURL=style-module.css.map */

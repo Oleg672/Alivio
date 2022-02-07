@@ -46,71 +46,72 @@
         height: 100%;
         display: block;
     }
-    .customized {
-        position: absolute;
-        bottom: -55px;
-        left: -117px;
-        background-color: white;
-        border-radius: 4px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 55px;
+    
+}
+.customized {
+    position: absolute;
+    bottom: -55px;
+    left: -117px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 55px;
 
-        filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+    filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
 
-        &__header {
-            font-family: Lato;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14.49px;
-            line-height: 157%;
-            margin-bottom: 7px;
-            position: relative;
-            &::after {
-                content: "";
-                bottom: -7px;
-                left: 0;
-                position: absolute;
-                width: 100%;
-                height: 1px;
-                background-color: black;
-            }
+    &__header {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14.49px;
+        line-height: 157%;
+        margin-bottom: 7px;
+        position: relative;
+        &::after {
+            content: "";
+            bottom: -7px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            background-color: black;
         }
-        &__imgWrap {
-            width: 57px;
-            height: 57px;
-            border-radius: 50%;
-            overflow: hidden;
-            margin: 0 auto;
-        }
-        &__mane {
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 11.9351px;
-            line-height: 157%;
-        }
-        &__contacts {
-            font-family: Georgia;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 15.9292px;
-            line-height: 157%;
-            margin: 20px 0px;
-        }
-        &__list {
-            margin: 0;
-            padding: 0;
-        }
-        &__item {
-            font-family: Lato;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 10.6195px;
-            line-height: 157%;
-            margin-bottom: 15px;
-        }
+    }
+    &__imgWrap {
+        width: 57px;
+        height: 57px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    &__mane {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11.9351px;
+        line-height: 157%;
+    }
+    &__contacts {
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15.9292px;
+        line-height: 157%;
+        margin: 20px 0px;
+    }
+    &__list {
+        margin: 0;
+        padding: 0;
+    }
+    &__item {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10.6195px;
+        line-height: 157%;
+        margin-bottom: 15px;
     }
 }
 @media screen and (max-width: 1300px) {
@@ -118,10 +119,31 @@
         font-size: 17px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .customized {
+        bottom: -55px;
+        left: 14px;
+        padding: 11px 11px;
+    }
+    .product__description{
+        margin-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .product__desc{
+        max-width: 100%;
+    }
+}
 @media screen and (max-width: 426px) {
     .product {
-        &__description{
-            padding:0;
+        &__description {
+            padding: 0;
+            margin-top: 15px;
+            &__btnFullSite {
+                display: block;
+                margin: 0 auto;
+            }
         }
         padding: 50px 0px;
         &__descHeader {
@@ -146,7 +168,8 @@
             position: relative;
             bottom: 0;
             left: 0;
-            margin-bottom: 5px;
+            margin-bottom: 12px;
+            border-radius: 0 0 15px 15px;
         }
     }
 }

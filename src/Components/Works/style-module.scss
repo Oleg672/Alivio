@@ -76,11 +76,10 @@
         border-radius: 12px;
     }
 }
-
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 768px) {
     .works {
         margin-top: 20px;
-        .container{
+        .container {
             padding: 0;
         }
         &__title span {
@@ -96,28 +95,72 @@
             font-size: 15px;
             line-height: 17px;
         }
-        &__list{
+        &__list {
             flex-direction: column;
             padding-left: 0;
         }
-        &__item{
+        &__item {
             padding: 0;
-            &:nth-child(2){
+            &:nth-child(2) {
                 margin-top: 54px;
             }
             margin-top: 54px;
         }
-        &__itemNUM{
+        &__itemNUM {
             display: none;
         }
-        &__itemTitle{
+        &__itemTitle {
             position: relative;
             top: 0;
             font-size: 18px;
         }
-        &__itemDescription{
+        &__itemDescription {
             font-size: 15px;
-    line-height: 18px;
+            line-height: 18px;
+        }
+    }
+}
+@media screen and (max-width: 426px) {
+    .works {
+        margin-top: 20px;
+        .container {
+            padding: 0;
+        }
+        &__title span {
+            font-size: 16px;
+            line-height: 17px;
+        }
+        &__title h2 {
+            font-size: 25px;
+            line-height: 25px;
+        }
+        &__description {
+            padding-top: 7px;
+            font-size: 15px;
+            line-height: 17px;
+        }
+        &__list {
+            flex-direction: column;
+            padding-left: 0;
+        }
+        &__item {
+            padding: 0;
+            &:nth-child(2) {
+                margin-top: 54px;
+            }
+            margin-top: 54px;
+        }
+        &__itemNUM {
+            display: none;
+        }
+        &__itemTitle {
+            position: relative;
+            top: 0;
+            font-size: 18px;
+        }
+        &__itemDescription {
+            font-size: 15px;
+            line-height: 18px;
         }
     }
 }

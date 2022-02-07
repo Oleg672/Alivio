@@ -22,6 +22,8 @@ function Header() {
                     <li className="header-menu__item"><a href="">Solutions</a></li>
                     <li className="header-menu__item"><a href="">Community</a></li>
                     <li className="header-menu__item"><a href="">Pricing</a></li>
+                    <li className="header-menu__item header-autorize__visability"><a href="">Sign-in</a></li>
+                    <li className="header-menu__item header-autorize__visability"><button className='btnFullSite'>Start Trial</button></li>
                 </ul>
                 <div className="header-autorize" id='header-autorize'>
                     <div> <a href="#" className="header-autorize__link">Sign-in</a></div>

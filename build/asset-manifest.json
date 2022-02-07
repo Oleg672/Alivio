@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Alivio/static/css/main.72181446.css",
-    "main.js": "/Alivio/static/js/main.f85d3f28.js",
+    "main.css": "/Alivio/static/css/main.ec4844cc.css",
+    "main.js": "/Alivio/static/js/main.4411f42a.js",
     "static/js/787.ee779dd6.chunk.js": "/Alivio/static/js/787.ee779dd6.chunk.js",
     "static/media/main.png": "/Alivio/static/media/main.c1ba00f468d26f27f057.png",
     "static/media/video1.png": "/Alivio/static/media/video1.d020aab3192841e506dc.png",
@@ -10,12 +10,12 @@
     "static/media/item2.png": "/Alivio/static/media/item2.739ef88142e40817f2b9.png",
     "static/media/item1.png": "/Alivio/static/media/item1.835a8e4157b2fa86786b.png",
     "index.html": "/Alivio/index.html",
-    "main.72181446.css.map": "/Alivio/static/css/main.72181446.css.map",
-    "main.f85d3f28.js.map": "/Alivio/static/js/main.f85d3f28.js.map",
+    "main.ec4844cc.css.map": "/Alivio/static/css/main.ec4844cc.css.map",
+    "main.4411f42a.js.map": "/Alivio/static/js/main.4411f42a.js.map",
     "787.ee779dd6.chunk.js.map": "/Alivio/static/js/787.ee779dd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72181446.css",
-    "static/js/main.f85d3f28.js"
+    "static/css/main.ec4844cc.css",
+    "static/js/main.4411f42a.js"
   ]
 }

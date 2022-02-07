@@ -58,14 +58,45 @@
 //     margin-top: 226px;
 //     margin-bottom: 175px;
 // }
-
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 768px) {
     .About {
-        padding-top: 50px;
+        padding: 50px 0;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
+    .About__video {
+        margin-top: 60px;
+        padding: 0;
+
+        &-btn {
+            width: 40px;
+            height: 40px;
+            top: calc(50% - 20px);
+            left: calc(50% - 20px);
+        }
+    }
+    .About__title {
+        padding: 0;
+        max-width: 100%;
+        h2 {
+            font-size: 25px;
+            line-height: 25px;
+            margin-bottom: 7px;
+            
+        }
+        p {
+            font-size: 15px;
+            line-height: 17px;
+        }
+        .btnFullSite{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+@media screen and (max-width: 426px) {
+   
     .About__video {
         margin-top: 60px;
         padding: 0;
