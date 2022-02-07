@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Components/Header'
 import Main from './Components/Main';
+import 'normalize.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Works from './Components/Works';
 import About from './Components/About';
@@ -14,9 +15,9 @@ function App() {
       <Header />
       <Main />
       <Works />
-      <About />
+      {/* <About />
       <Product />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

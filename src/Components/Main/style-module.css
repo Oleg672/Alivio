@@ -16,7 +16,7 @@
   margin: 0;
   padding-top: 175px;
   display: block;
-  font-family: 'Noto Sans Georgian', sans-serif;
+  font-family: "Noto Sans Georgian", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 65px;
@@ -42,12 +42,18 @@
 }
 
 .main .wrap {
+  background-image: url("../../images/main.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   margin-top: -21px;
-  position: absolute;
   margin: 0;
   padding: 0;
   left: 0;
   z-index: -3;
+  position: relative;
+  padding-bottom: 336px;
+  min-height: 895px;
 }
 
 .main .wrap::after {
@@ -57,16 +63,37 @@
   height: 100%;
   left: 0;
   top: 0;
-  z-index: 2;
+  z-index: -2;
   background: linear-gradient(112.58deg, #ffffff 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
 }
 
 .main__img {
   display: block;
   z-index: -3;
-  height: 895px;
   width: 100vw;
   background-size: cover;
   background: linear-gradient(112.58deg, #ffffff 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+  background-image: none;
+}
+
+@media screen and (max-width: 768px) {
+  .main__title {
+    font-size: 51px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .main__title {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .main__context {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .main .container {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style-module.css.map */
