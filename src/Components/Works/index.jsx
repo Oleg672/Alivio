@@ -17,20 +17,20 @@ function Works() {
 
                     <p className="works__description col-12 .col-md-6">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
 
-                    <ul className="works__list row">
-                        <li className="works__item col-4">
+                    <ul className="works__list">
+                        <li className="works__item col-12">
                             <span className="works__itemNUM">01</span>
                             <h6 className="works__itemTitle" >Personalize</h6>
                             <p className="works__itemDescription">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
                             <img className="works__itemIMG" src={Img1} alt="" />
                         </li>
-                        <li className="works__item col-4">
+                        <li className="works__item col-12">
                             <span className="works__itemNUM">02</span>
                             <h6 className="works__itemTitle" >Write & Understand</h6>
                             <p className="works__itemDescription">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
                             <img className="works__itemIMG" src={Img2} alt="" />
                         </li>
-                        <li className="works__item col-4">
+                        <li className="works__item col-12">
                             <span className="works__itemNUM">03</span>
                             <h6 className="works__itemTitle" >Alivio!</h6>
                             <p className="works__itemDescription">Now you are aware, and have a way to manage and overcome your own stress.What are you waiting for? Alivio today!</p>

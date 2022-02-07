@@ -4,20 +4,6 @@
   background: #245852;
 }
 
-.About .AboutInner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-top: 226px;
-  margin-bottom: 175px;
-}
-
 .About__title {
   max-width: 580px;
   padding-right: 30px;
@@ -68,5 +54,47 @@
   width: 100%;
   height: 100%;
   background-size: cover;
+}
+
+@media screen and (max-width: 426px) {
+  .About {
+    padding-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .About__video {
+    margin-top: 60px;
+    padding: 0;
+  }
+  .About__video-btn {
+    width: 40px;
+    height: 40px;
+    top: calc(50% - 20px);
+    left: calc(50% - 20px);
+  }
+  .About__title {
+    padding: 0;
+  }
+  .About__title h2 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 7px;
+  }
+  .About__title p {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .About__title .btnFullSite {
+    display: block;
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=style-module.css.map */

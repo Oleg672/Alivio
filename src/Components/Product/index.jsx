@@ -8,7 +8,7 @@ function Product() {
     return (
 
         <section className="product row">
-            <div className="photo col-4">
+            <div className="photo col-10 col-xl-4">
                 <div className="photo__img">
                     <img src={Photo} alt="" />
                 </div>
@@ -27,7 +27,7 @@ function Product() {
                     </ul>
                 </div>
             </div>
-            <div className="product__description col-5 col-xl-3">
+            <div className="product__description col-10 col-xl-5">
                 <p className="product__descHeader">Our product</p>
                 <h2 className="product__title">You tell us your stress, We make your diary</h2>
                 <p className="product__desc">Everyone experiences it, and in different ways. <br></br> Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>

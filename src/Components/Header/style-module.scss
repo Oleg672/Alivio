@@ -2,7 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     &__title {
         color: #01996d;
         font-weight: bold;

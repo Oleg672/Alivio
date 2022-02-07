@@ -95,7 +95,7 @@
 }
 
 .photo .customized__header::after {
-  content: '';
+  content: "";
   bottom: -7px;
   left: 0;
   position: absolute;
@@ -146,6 +146,46 @@
 @media screen and (max-width: 1300px) {
   .btnFullSite {
     font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .product {
+    padding: 50px 0px;
+  }
+  .product__description {
+    padding: 0;
+  }
+  .product__descHeader {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .product__title {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .product__desc {
+    padding-top: 7px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .photo .customized {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 5px;
   }
 }
 /*# sourceMappingURL=style-module.css.map */

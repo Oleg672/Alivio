@@ -4,14 +4,13 @@ import mainImg from '../../images/main.png';
 function Main() {
 
     return (
-        < div className="main" >
-            <div className="wrap row">
+        < div className="main row" >
             <div className='container col-10 col-xl-8'>
                 <h1 className='main__title'>Be aware, Manage well.</h1>
                 <p className='main__context'>Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
 
                 <button className='btnFullSite' >Find Your Way</button>
-            </div >
+            
         </div>
 
         </div >
