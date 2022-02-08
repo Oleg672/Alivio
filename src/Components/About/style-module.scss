@@ -2,6 +2,9 @@
     color: white;
     position: relative;
     background: #245852;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &__title {
         max-width: 580px;
@@ -58,6 +61,41 @@
 //     margin-top: 226px;
 //     margin-bottom: 175px;
 // }
+@media screen and (max-width: 1024px) {
+    .About {
+        padding:40px 0;
+       
+    }
+    .About__video {
+        margin-top: 0px;
+        padding: 0;
+
+        &-btn {
+            width: 60px;
+            height: 60px;
+            top: calc(50% - 30px);
+            left: calc(50% - 30px);
+        }
+       
+    }
+    .About__title {
+        max-width: 100%;
+        h2 {
+            font-size: 25px;
+            line-height: 25px;
+            margin-bottom: 7px;
+            
+        }
+        p {
+            font-size: 15px;
+            line-height: 17px;
+        }
+        .btnFullSite{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
 @media screen and (max-width: 768px) {
     .About {
         padding: 50px 0;

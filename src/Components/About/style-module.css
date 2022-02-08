@@ -2,6 +2,15 @@
   color: white;
   position: relative;
   background: #245852;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .About__title {
@@ -54,6 +63,38 @@
   width: 100%;
   height: 100%;
   background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .About {
+    padding: 40px 0;
+  }
+  .About__video {
+    margin-top: 0px;
+    padding: 0;
+  }
+  .About__video-btn {
+    width: 60px;
+    height: 60px;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+  }
+  .About__title {
+    max-width: 100%;
+  }
+  .About__title h2 {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 7px;
+  }
+  .About__title p {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .About__title .btnFullSite {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 768px) {

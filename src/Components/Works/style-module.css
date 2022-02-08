@@ -92,6 +92,25 @@
   border-radius: 12px;
 }
 
+@media screen and (max-width: 1024px) {
+  .works {
+    margin-top: 20px;
+  }
+  .works__title span {
+    font-size: 16px;
+    line-height: 17px;
+  }
+  .works__title h2 {
+    font-size: 31px;
+    line-height: 35px;
+  }
+  .works__description {
+    padding-top: 7px;
+    font-size: 15px;
+    line-height: 17px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .works {
     margin-top: 20px;
